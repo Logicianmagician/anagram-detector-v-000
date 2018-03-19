@@ -8,7 +8,7 @@ def initialize(word)
 end
 
 def match(word)
-  word.select {|e| e.split("").sort == e.split("").sort }
+  word.select {|e| e.split("").sort == @name.split("").sort }
 end
 
 end
